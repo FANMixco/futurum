@@ -5,6 +5,10 @@
     "scripts": {
         "start": "gulp watch"
     },
+    "resolutions": {
+        "glob-parent": "^6.0.1"
+    },
+    "preinstall": "npx npm-force-resolutions",
     "description": "Creative is a stylish one page HTML theme for Bootstrap.",
     "keywords": [
         "css",
