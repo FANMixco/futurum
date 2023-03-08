@@ -509,7 +509,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </p>
   <form>
   <div class="form-row">
-    <div class="form-group col-md-10">
+    <div class="form-group col-md-6">
       <label for="przykladoweImie">Imię</label>
       <input type="imię" class="form-control" id="przykladoweImie" placeholder="Imię">
     </div>
@@ -518,11 +518,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type="nazwisko" class="form-control" id="przykladoweNazwisko" placeholder="Nazwisko">
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-6">
     <label for="przykladowyEmail">Email</label>
     <input type="email" class="form-control" id="przykladowyEmail" placeholder="Email">
   </div>
-    <div class="form-group">
+    <div class="form-group col-md-6">
     <label for="przykladowyTelefon">Telefon</label>
     <input type="telefon" class="form-control" id="przykladowyTelefon" placeholder="Telefon">
   </div>	
@@ -562,7 +562,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </select>
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-6">
     <label for="przykladowyWielokrotnySelect">Interesuje mnie szkolenie:</label>
     <select multiple class="form-control" id="przykladowyWielokrotnySelect">
       <option>Obsługa komputera dla seniorów</option>
@@ -601,9 +601,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </select>
     <small id="podpowiedzSelect" class="form-text text-muted">Wielokrotny wybór - przytrzymaj klawisz CTRL</small>
   </div>
+  <div class="form-group col-md-6">
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">Tryb szkolenia:</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            zdalne
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            stacjonarne
+          </label>
+        </div>
+       </div>
+    </div>
+  </fieldset>
   <div class="form-group">
     <label for="przykladowaUwagi">Uwagi</label>
-    <textarea class="form-control" id="przykladowaUwagi" rows="5"></textarea>
+    <textarea class="form-control" id="przykladowaUwagi" rows="3"></textarea>
   </div>
   <button type="submit" class="btn btn-primary">Wyślij</button>
 </form>  
