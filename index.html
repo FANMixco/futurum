@@ -501,7 +501,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
          </div>
 	</div>
-</p>
+<br>
+<br>	    
 <div class="container">
  <div class="row justify-content-center">
   <div class="col-lg-8 text-center">
@@ -528,10 +529,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <input type="telefon" class="form-control" id="przykladowyTelefon" placeholder="Telefon">
   </div>	
   <div class="form-group">
+    <div class="form-group col-md-6">	  
     <label for="przykladowyFirma">Nazwa firmy</label>
     <input type="text" class="form-control" id="przykladowyFirma" placeholder="Nazwa firmy">
   </div>
-  <div class="form-group">
+  <div class="form-group col-md-6">
     <label for="przykladowyAdres">Adres</label>
     <input type="text" class="form-control" id="przykladowyAdres" placeholder="Podaj ulicę i numer">
   </div>
@@ -565,7 +567,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
   <div class="form-row">
   <div class="form-group col-md-6">
-    <label for="przykladowyWielokrotnySelect">Interesuje mnie szkolenie:</label>
+    <label for="przykladowyWielokrotnySelect">Interesuje mnie szkolenie IT:</label>
     <select multiple class="form-control" id="przykladowyWielokrotnySelect">
       <option>Obsługa komputera dla seniorów</option>
       <option>Komputer i Internet w pracy zawodowej</option>
@@ -591,6 +593,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <option>Arkusze Google</option>
       <option>Dokumenty Google</option>
       <option>Prezentacje Google</option>
+    </select>
+    <small id="podpowiedzSelect" class="form-text text-muted">Wielokrotny wybór - przytrzymaj klawisz CTRL</small>
+  </div>
+  <div class="form-group col-md-6">
+    <label for="przykladowyWielokrotnySelect">Interesuje mnie szkolenie biznesowe:</label>
+    <select multiple class="form-control" id="przykladowyWielokrotnySelect">
       <option>Budowanie skutecznego zespołu</option>
       <option>Efektywny lider zespołu</option>
       <option>Skuteczna współpraca z klientami</option>
@@ -603,7 +611,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </select>
     <small id="podpowiedzSelect" class="form-text text-muted">Wielokrotny wybór - przytrzymaj klawisz CTRL</small>
   </div>
-  <div class="form-group col-md-6">
   <fieldset class="form-group">
     <div class="row">
       <legend class="col-form-label col-sm-2 pt-0">Tryb szkolenia:</legend>
