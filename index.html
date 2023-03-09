@@ -485,7 +485,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="col-lg-8 text-center">
             <h2 class="mt-0 text-uppercase">Jesteś zainteresowany?</h2>
             <hr class="divider my-4">
-            <p class="text-muted mb-5">Skontaktuj się z nami telefonicznie, mailowo lub poprzez poniższy formularz. Wspólnie znajdziemy dla Ciebie najlepsze rozwiązanie!</p>  
+            <p class="text-muted mb-5">Skontaktuj się z nami telefonicznie, mailowo lub poprzez poniższy formularz.<br>Wspólnie znajdziemy dla Ciebie najlepsze rozwiązanie!</p>  
           </div>
         </div>
         <div class="row">
@@ -613,31 +613,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </select>
     <small id="podpowiedzSelect" class="form-text text-muted">Wielokrotny wybór - przytrzymaj klawisz CTRL</small>
   </div>
-  <fieldset class="form-group">
-    <div class="row">
-      <legend class="col-form-label col-sm-2 pt-0">Tryb szkolenia:</legend>
-      <div class="col-sm-10">
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-          <label class="form-check-label" for="gridRadios1">
-            zdalne
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-          <label class="form-check-label" for="gridRadios2">
-            stacjonarne
-          </label>
-        </div>
-        <div class="form-check disabled">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-          <label class="form-check-label" for="gridRadios3">
-            Trzeci, zablokowany radio
-          </label>
-        </div>
-      </div>
-    </div>
-  </fieldset>
+ <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="przykladoweRadio" id="pierwszeRadio" value="option1" checked>
+  <label class="form-check-label" for="pierwszeRadio">
+    szkolenie zdalne
+  </label>
+ </div>
+ <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="przykladoweRadio" id="drugieRadios" value="option2">
+  <label class="form-check-label" for="drugieRadios">
+    szkolenie stacjonarne
+  </label>
+ </div>
   <div class="form-group">
     <label for="przykladowaUwagi">Uwagi</label>
     <textarea class="form-control" id="przykladowaUwagi" rows="3"></textarea>
