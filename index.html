@@ -507,13 +507,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <br>	    
 
 	    
-	    <div class="container">
+	<div class="container" style="display:none;">
 	<div class="row justify-content-center">
 		<div class="col-lg-8 text-center">
 			<p class="text-muted mb-5">Formularz zgłoszeniowy</p>
 
 		</div>
-		<form>
+		<form id="contact-form" name="contact_form" class="default-form" action="mail.php" method="post">
 		  <div class="form-row">
 			<div class="form-group col-md-6">
 			  <label for="przykladoweImie">Imię</label>
@@ -619,9 +619,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<small id="podpowiedzSelect" class="form-text text-muted">Wielokrotny wybór - przytrzymaj klawisz CTRL</small>
 			  </div>
 			 </div>
-		</form>
-
-		<form>
+		
 			<fieldset class="form-group">
 				<div class="row">
 				  <legend class="col-form-label col-sm-12 pt-0">Tryb:</legend>
@@ -637,9 +635,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				   </div>
 				</div>
 			</fieldset>
-		</form>
 		
-		<form>
 			<div class="form-group">
 				<label for="przykladowaTextarea">Uwagi</label>
 				<textarea class="form-control" id="przykladowaTextarea" rows="3"></textarea>
