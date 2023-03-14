@@ -506,6 +506,161 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <br>
 <br>	    
 
+	    
+	    <div class="container">
+	<div class="row justify-content-center">
+		<div class="col-lg-8 text-center">
+			<p class="text-muted mb-5">Formularz zgłoszeniowy</p>
+
+		</div>
+		<form>
+		  <div class="form-row">
+			<div class="form-group col-md-6">
+			  <label for="przykladoweImie">Imię</label>
+			  <input type="imię" class="form-control" id="przykladoweImie" placeholder="Imię">
+			</div>
+			<div class="form-group col-md-6">
+			  <label for="przykladoweNazwisko">Nazwisko</label>
+			  <input type="nazwisko" class="form-control" id="przykladoweNazwisko" placeholder="Nazwisko">
+			</div>
+		  </div>
+		  <div class="form-row">
+			<div class="form-group col-md-6">
+			<label for="przykladowyEmail">Email</label>
+			<input type="email" class="form-control" id="przykladowyEmail" placeholder="Email">
+		   </div>
+			<div class="form-group col-md-6">
+			<label for="przykladowyTelefon">Telefon</label>
+			<input type="telefon" class="form-control" id="przykladowyTelefon" placeholder="Telefon">
+		   </div>
+		  </div>
+		  <div class="form-row">
+			<div class="form-group col-md-6">         
+			<label for="przykladowyFirma">Nazwa firmy</label>
+			<input type="text" class="form-control" id="przykladowyFirma" placeholder="Nazwa firmy">
+		   </div>
+		  <div class="form-group col-md-6">
+			<label for="przykladowyAdres">Adres</label>
+			<input type="text" class="form-control" id="przykladowyAdres" placeholder="Podaj ulicę i numer">
+		   </div>
+		  </div>
+		  <div class="form-row">
+			<div class="form-group col-md-6">
+			  <label for="przykladoweMiasto">Miasto</label>
+			  <input type="text" class="form-control" id="przykladoweMiasto">
+			</div>
+			<div class="form-group col-md-6">
+			  <label for="przykladoweWojewodztwo">Województwo</label>
+			  <select id="przykladoweWojewodztwo" class="form-control">
+				<option selected>Wybierz...</option>
+				<option>dolnośląskie</option>
+				 <option>kujawsko-pomorskie</option>
+				 <option>lubelskie</option>
+				 <option>lubuskie</option>
+				 <option>łódzkie</option>
+				 <option>małopolskie</option>
+				 <option>mazowieckie</option>
+				 <option>opolskie</option>
+				 <option>podkarpackie</option>
+				 <option>podlaskie</option>
+				 <option>pomorskie</option>
+				 <option>śląskie</option> 
+				 <option>świętokrzyskie</option>
+				 <option>warmińsko-mazurskie</option>
+				 <option>wielkopolskie</option>
+				 <option>zachodniopomorskie</option>      
+			  </select>
+			</div>
+		  </div>
+		  <div class="form-row">
+			  <div class="form-group col-md-6">
+				<label for="przykladowyWielokrotnySelect">Interesuje mnie szkolenie IT:</label>
+				<select multiple class="form-control" id="przykladowyWielokrotnySelect">
+				  <option>Obsługa komputera dla seniorów</option>
+				  <option>Komputer i Internet w pracy zawodowej</option>
+				  <option>MS Excel - podstawowy</option>
+				  <option>MS Excel - średniozaawansowany</option>
+				  <option>MS Excel - zaawansowany</option>
+				  <option>MS Excel - tabele przestawne</option>
+				  <option>MS Excel - wizualizacja danych</option>
+				  <option>MS Excel dla logistyków</option>
+				  <option>MS Excel dla pracowników HR</option>
+				  <option>MS Excel - Power Query</option>
+				  <option>MS Excel - Power Pivot</option>
+				  <option>MS Excel - Power Map</option>
+				  <option>MS Word - podstawowy</option>
+				  <option>MS Word - zaawansowany</option>
+				  <option>MS PowerPoint - podstawowy</option>
+				  <option>MS PowerPoint - zaawansowany</option>
+				  <option>MS Outlook w pracy zawodowej</option>
+				  <option>Pakiet: Excel + Word + PowerPoint (6 dni)</option>
+				  <option>ECDL Base</option>
+				  <option>ECDL Advanced</option>
+				  <option>DIGCOMP</option>
+				  <option>Arkusze Google</option>
+				  <option>Dokumenty Google</option>
+				  <option>Prezentacje Google</option>
+				</select>
+				<small id="podpowiedzSelect" class="form-text text-muted">Wielokrotny wybór - przytrzymaj klawisz CTRL</small>
+			  </div>
+			  <div class="form-group col-md-6">
+				<label for="przykladowyWielokrotnySelect">Interesuje mnie szkolenie biznesowe:</label>
+				<select multiple class="form-control" id="przykladowyWielokrotnySelect">
+				  <option>Budowanie skutecznego zespołu</option>
+				  <option>Efektywny lider zespołu</option>
+				  <option>Skuteczna współpraca z klientami</option>
+				  <option>Komunikacja interpersonalna</option>
+				  <option>Wystąpienia publiczne</option>
+				  <option>Profesjonalna obsługa klienta</option>
+				 <option>Organizacja pracy w biurze</option>
+				  <option>Zarządzanie sobą w czasie</option>     
+				  <option>Warsztaty Design Thinking</option>
+				</select>
+				<small id="podpowiedzSelect" class="form-text text-muted">Wielokrotny wybór - przytrzymaj klawisz CTRL</small>
+			  </div>
+			 </div>
+		</form>
+
+		<form>
+			<fieldset class="form-group">
+				<div class="row">
+				  <legend class="col-form-label col-sm-12 pt-0">Tryb:</legend>
+				  <div class="col-sm-12">
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+					  <label class="form-check-label" for="gridRadios1">zdalne</label>
+					</div>
+					<div class="form-check">
+					  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+					  <label class="form-check-label" for="gridRadios2">stacjonarne</label>
+					</div>
+				   </div>
+				</div>
+			</fieldset>
+		</form>
+		
+		<form>
+			<div class="form-group">
+				<label for="przykladowaTextarea">Uwagi</label>
+				<textarea class="form-control" id="przykladowaTextarea" rows="3"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="przykladoweWysylaniePliku">Czy chcesz załączyć jakiś dokument?</label>
+				<input type="file" class="form-control-file" id="przykladoweWysylaniePliku">
+			</div><br>
+			<button type="submit" class="btn btn-primary">Wyślij</button>
+		</form> 
+	</div>
+</div>      
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
     </section>
     <!-- Footer -->
     <footer class="bg-light py-5">
