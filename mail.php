@@ -1,15 +1,15 @@
 <?php
 
 
-$first_name = $_POST['imie'];
-$last_name = $_POST['nazwisko'];
+$first_name = $_POST['first-name'];
+$last_name = $_POST['last-name'];
 
 $email = $_POST['email'];
-$telefon = $_POST['telefon'];
+$website = $_POST['website'];
 $message = $_POST['message'];
 
 $dokogo = "dawid@wykreowani.pl";
-$tytul = "Formularz kontaktowy - autoserwisbeta.pl";
+$tytul = "Formularz kontaktowy - futurum";
 
 $wiadomosc = "";
 $wiadomosc .= "Imię: " . $first_name . "\n \n";
@@ -25,6 +25,6 @@ $naglowek .= "Content-Type:text/plain;charset=utf-8";
 $sukces = mail($dokogo, $tytul, $wiadomosc, $naglowek);
 
 if ($sukces){
-  print "<meta http-equiv=\"refresh\" content=\"0;\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=index.html\">";
 }
 ?>
