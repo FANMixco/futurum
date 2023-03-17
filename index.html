@@ -517,23 +517,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <br>	      
 	    
 	<div class="container" style="display:none;">
-  <h1>FormSubmit Demo</h1>
-  <form target="_blank" action="https://formsubmit.co/dawid@wykreowani.pl" method="POST">
-    <div class="form-group">
-      <div class="form-row">
-        <div class="col">
-          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-        </div>
-        <div class="col">
-          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-        </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
-  </form>
+  <form id="contactform" action="https://formsubmit.io/send/dawid@wykreowani.pl" method="POST">
+    <input name="name" type="text" id="name">
+    <input name="email" type="email" id="email">
+    <textarea name="comment" id="comment" rows="3"></textarea>
+
+    <input name="_formsubmit_id" type="text" style="display:none">
+
+    <input value="Submit" type="submit">
+</form>
 </div>
 	    
 	    
