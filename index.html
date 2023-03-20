@@ -517,39 +517,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <br>	      
 	
 	    
-	    <div class="container" style="display:none;">
+	<div class="container" style="display:none;">
 	<div class="row justify-content-center">
 		<div class="col-lg-8 text-center">
 			<p class="text-muted mb-5">Formularz zgłoszeniowy</p>
 		</div>
 		<form id="contact-form" name="contact_form" class="default-form" action="https://wykreowani.com.pl/futurum/mail.php" method="post">
-			<div class="row">
-				<div class="polowa-strony">
-					<div class="margin-input">
-						<input type="text" name="first-name" value="" placeholder="First Name*" required="">
-					</div>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="przykladoweImie">Imię</label>
+					<input type="text" name="first-name" value="" placeholder="Imię*" required="">
 				</div>
-				<div class="polowa-strony">
-					<div class="margin-input">
-						<input type="text" name="last-name" value="" placeholder="Last Name*" required="">
-					</div>
+				<div class="form-group col-md-6">
+					<label for="przykladoweNazwisko">Nazwisko</label>
+					<input type="text" name="last-name" value="" placeholder="Nazwisko*" required="">
 				</div>
-				<div class="polowa-strony">
-					<div class="margin-input">
-						<input type="text" name="email" value="" placeholder="Email*" required="">
-					</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="przykladowyEmail">Email</label>
+					<input type="text" name="email" value="" placeholder="Email*" required="">
 				</div>
-				<div class="polowa-strony">
-					<div class="margin-input">
-						<input type="text" name="tel" value="" placeholder="Telefon">
-					</div>
+				<div class="form-group col-md-6">
+					<label for="przykladowyTelefon">Telefon</label>
+					<input type="text" name="tel" value="" placeholder="Telefon">
 				</div>
-				<div class="margin-input">
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-6">         
+					<label for="przykladowyFirma">Wiadomość</label>
 					<textarea name="message" placeholder="Wiadomość" required=""></textarea>
 				</div>
-				<div class="link-btn-contact">
-					<button class="btn-style-kontakt" type="submit" data-loading-text="Proszę czekać...">Submit</button>
-				</div>
+			</div>
+			<div class="form-row">
+				<button class="btn-style-kontakt" type="submit" data-loading-text="Proszę czekać...">Wyślij</button>
 			</div>
 		</form>
 	</div>
